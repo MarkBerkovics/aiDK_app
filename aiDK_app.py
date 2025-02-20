@@ -6,7 +6,7 @@ import requests
 
 st.image("data/images/DK.jpg", width=200)
 
-st.markdown("#### Ask a question to Djwal Khul")
+st.markdown("#### Ask a question to AI Djwal Khul")
 
 
 with open("data/system_prompt.txt", 'r') as f:
