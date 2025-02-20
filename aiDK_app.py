@@ -2,11 +2,11 @@ import streamlit as st
 import requests
 
 
-st.title("Welcome spiritual seeker!")
-st.markdown("#### I am Djwal Khul")
+
+
 st.image("data/images/DK.jpg", width=200)
-st.markdown("#### a Tibetan disciple in 'The Ageless Wisdom' esoteric tradition.")
-st.markdown("#### What is your question for me today?")
+
+st.markdown("#### Ask a question to Djwal Khul")
 
 
 with open("data/system_prompt.txt", 'r') as f:
